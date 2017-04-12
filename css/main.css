@@ -1,0 +1,55 @@
+body {
+	background-image: url("../img/background.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	text-shadow: 2px 2px #F20010;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.radio {
+	margin-left: 20px;
+}
+
+h3 {
+	margin-top: 20px;
+}
+
+#question2Select {
+	color: #F2FE00;
+}
+
+#question2Daily {
+	color: #01FF13;
+}
+
+#question2Weekly {
+	color: #00F0FE;
+}
+
+#question2Monthly {
+	color: #1100FE;
+}
+
+#question2Never {
+	color: #FF00FF;
+}
+
+input::-webkit-input-placeholder {
+color: red !important;
+}
+
+.button {
+	padding: 5px 100px;
+	background-color: #F20010;
+	border-radius: 5px;
+	border: none;
+	margin-left: 30%;
+}

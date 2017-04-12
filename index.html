@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://use.fontawesome.com/711885524a.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+				<div id="mainForm">
+					<form id="form" class="form-horizontal">
+						<!-- question 2 using select and options -->
+						<h3>How often do you feel stressed to the point where it affects your daily life?</h3>
+						<select class="form-control">
+							<option class="question2" value="" id="question2Select">select below</option>
+							<option class="question2" value="Daily" id="question2Daily" >Daily or everyother day</option>
+							<option class="question2" value="Weekly" id="question2Weekly">Once a week or a couple days a week</option>
+							<option class="question2" value="Monthly" id="question2Monthly">A few times a month or once a month</option>
+							<option class="question2" value="Never" id="question2Never">Almost never</option>
+						</select>
+
+						<!-- question 1 using checkboxes -->
+						<h3>What do you typically do when you are stressed?</h3>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="Relaxing">Yoga / Meditation / Massage</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="Semi-Relax">Hobby / Spend time with Others / Do Random Stuff</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="Productive">Work / Chores / Excersise</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="Stress">Social Media / Movie / Video Games</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="Other">Other</label>
+						</div>
+
+						<!-- question 3 using radio buttons -->
+						<h3>What causes you the most stress?</h3>
+						<div class="form-group">
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="Work">Work / School
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="Future">The Future
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="Self">Self Image / body
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="People">People
+								</label>
+							</div>
+						</div>
+						<button type="button" id="submitButton" class="button">Submit your Survey</button>
+					</form>
+					
+					<!-- display results -->
+					<div id="results"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
